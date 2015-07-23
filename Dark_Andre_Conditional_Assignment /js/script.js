@@ -43,3 +43,9 @@ var no = "no";
 
 
 
+/*I tested the different values to make sure my results were accurate
+ var userInput = prompt ("How many cigarettes do you smoke a month?");
+ var cigADay = userInput/4;
+ console.log(cigADay);
+
+ alert("You smoke " + cigADay + " cigarettes a week");*/

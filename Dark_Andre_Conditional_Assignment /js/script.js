@@ -25,3 +25,21 @@ if (userInput===noData){ // if statement for when no data is entered
 else {
     alert("Make sure you enter in a number"); //tells the user to enter a number in instead of a character
 }
+
+var userInput2 = prompt("How much do you spend on a pack of cigarettes?"); //ask the user how much they spend on a pack
+var amountAWeek = userInput2*packsOfCig; //calculation for amount for a pack of cigarettes times packs cigs a week
+
+//calculation for amount the user spend a week on cigs times 4 weeks times 12 months
+var amountAYear = amountAWeek*4*12;
+//tells the user how much they spend a week
+alert("You spend $" + amountAWeek + " a week on cigarettes") ||
+    //also tells the user how much they spend a year
+alert("A total of $" + amountAYear + " a year on cigarettes, Wow!");
+
+prompt("Do you want to quit?");//need help with this one
+var yes = "yes";
+var no = "no";
+(yes && no )   ?(yes) = alert("You can if you try") : (no) = alert("You could save $" + amountAYear + " if you didn't smoke ");
+
+
+

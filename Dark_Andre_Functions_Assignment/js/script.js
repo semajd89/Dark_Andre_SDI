@@ -29,16 +29,9 @@ alert("The second lottery pick number is " + pick2 + "");
 
 
 }
-alert("The Florida lottery numbers is " +flaLottery+".",  "If you picked these numbers then you are the lucky winner. Congratulations!!!" +
-" "); //alerts the user the final florida lottery numbers
-
-console.log("The Florida lottery numbers is " +flaLottery+ ""); //print out to the console of the final value
 
 
-/*lotteryPick2(55,86)
+console.log("The Florida lottery numbers is " +flaLottery+".",  "If you picked these numbers then you are the lucky winner. Congratulations!!!" +
+" "); //print out to the console of the final value
 
-function lotteryPick2 (pick1, pick2){
-    alert("The first lottery pick number is " +pick1+ "")
-}
 
-This was a test to prove the numbers I plug in worked with the function
